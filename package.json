@@ -1,0 +1,33 @@
+{
+  "name": "Radio-Bot",
+  "version": "0.0.1",
+  "description": "Discord bot to play radio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "mathjs": "^7.0.2",
+    "express": "^4.17.1",
+    "round-to": "^4.0.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "node-opus": "^0.3.3",
+    "sodium": "^3.0.2",
+    "babel": "^6.23.0",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/build-a-discord-bot"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "8.x"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
